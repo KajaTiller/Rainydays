@@ -8,7 +8,7 @@
     color: rgb(0, 51, 51);
   }
 
-  .container {
+  .container-header {
     display: flex;
   }
   .item {
@@ -29,65 +29,67 @@
     padding: 40px;
   }
 
- ul{
-     margin-left:340px;
- }
+  ul {
+    margin-left: 30%;
+  }
 
-li {
-  display: inline;
-  margin-right: 80px;
-  
-}
+  li {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
 
-nav a {
-  text-decoration: none;
-  color: rgb(0, 51, 51);
-  font-size: 30px;
-  font-weight: normal;
-  
-}
+  nav a {
+    text-decoration: none;
+    color: rgb(0, 51, 51);
+    font-size: 30px;
+    font-weight: normal;
+  }
 
-nav a:hover {
-  text-decoration: underline;
-  color: rgb(17, 84, 139);
-  font-weight: bold;
-}
+  nav a:hover {
+    text-decoration: underline;
+    color: rgb(17, 84, 139);
+    font-weight: bold;
+  }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  border-radius: 8px;
-  margin-bottom: 50px;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 8px;
+    margin-bottom: 50px;
+  }
 
-}
-
-.inspiration {
+  .inspiration {
     background-color: cadetblue;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
     border-radius: 8px;
-   
-}
+  }
 
-h2{
+  h2 {
     text-align: center;
     padding: 20px;
     color: whitesmoke;
-    font-weight: normal;  
-}
+    font-weight: normal;
+    font-size: 30px;
+  }
 
-.inspo-pic {
+  .inspo-pic {
     display: flex;
+  }
 
-}
-
-.inspo-pic img {
-
+  .inspo-pic img {
     width: 150px;
-    margin:10px;
+    margin: 10px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  footer {
+    background-color: rgb(217, 230, 241);
+  }
 }
