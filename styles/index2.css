@@ -1,9 +1,51 @@
 @media screen and (max-width: 600px) {
-  .item {
+  .container-header {
+    background-color: rgb(217, 230, 241);
+    max-height: 70px;
+    margin-bottom: 20px;
+  }
+  #item {
+    max-width: 100px;
+    padding: 10px;
+  }
+
+  .wider-item {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .Image-norway {
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 50px;
+  }
+
+  #hamburger-icon {
+    float: right;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+  #hamburger-menu:checked ~ nav {
     display: block;
-    max-width: 40%;
+  }
+}
+
+@media (min-width: 600px) {
+  .logo {
+    max-width: 200px;
   }
 
   body {
@@ -11,11 +53,20 @@
     color: rgb(0, 51, 51);
   }
 
+  .container-header {
+    display: flex;
+  }
+  .item {
+    margin-left: 40px;
+    flex: 2;
+    max-width: 200px;
+  }
   .wider-item {
+    flex: 4;
+    margin-left: 100px;
+    margin-top: 30px;
     color: rgb(0, 51, 51);
-    font-size: 10%;
-    text-align: center;
-    margin-top: 20px;
+    font-weight: 200;
   }
 
   header {
@@ -23,15 +74,72 @@
     padding: 40px;
   }
 
-  nav {
-    display: none;
-  }
-
+  #hamburger-icon,
   #hamburger-menu {
     display: none;
   }
 
-  #hamburger-menu:checked ~ nav {
+  ul {
+    margin-left: 30%;
+  }
+
+  li {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: rgb(0, 51, 51);
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+    color: rgb(17, 84, 139);
+    font-weight: bold;
+  }
+
+  img {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 8px;
+    margin-bottom: 50px;
+  }
+
+  .inspiration {
+    background-color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 8px;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 30px;
+  }
+
+  .inspo-pic {
+    display: flex;
+  }
+
+  .inspo-pic img {
+    width: 150px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    background-color: rgb(217, 230, 241);
   }
 }
