@@ -68,12 +68,11 @@
     color: rgb(248, 215, 25);
     font-weight: bold;
   }
+
   footer ul {
-    display: flex;
     justify-content: space-around;
     color: white;
-    display: block;
-    align-items: flex-start;
+    display: inline-block;
   }
 
   footer a {
@@ -86,14 +85,15 @@
     background-color: rgb(0, 51, 51);
     display: flex;
     justify-content: space-evenly;
-    font-size: 10px;
+    font-size: 1vw;
+    max-height: 90px;
   }
   h2 {
     font-weight: normal;
   }
 
   footer a {
-    display: block;
+    display: inline;
   }
 
   .follow_us a {
@@ -107,12 +107,37 @@
     font-family: "roboto condensed", "open sans", "PT sans", verdana;
     color: rgb(0, 51, 51);
   }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 
   .logo {
-    max-width: 400px;
+    max-width: 20vw;
+    float: left;
+    margin-left: 30px;
   }
-  .container-header {
-    display: block;
+
+  input[type="text"] {
+    float: right;
+    width: 500px;
+    height: 20px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: 105, 110, 109;
+  }
+
+  input[type="text"] :active {
+    color: black;
+    margin: 5px;
+  }
+
+  input[type="text"]:hover {
+    color: black;
+    margin: 20px;
   }
 
   .wider-item {
@@ -122,20 +147,24 @@
     background-color: rgb(0, 51, 51);
     padding: 20px;
     color: whitesmoke;
+    font-size: 2vw;
   }
 
   header {
     padding: 40px;
   }
-
   #hamburger-icon,
   #hamburger-menu {
+    float: right;
     display: none;
   }
 
   ul {
     display: flex;
     justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
   }
 
   li {
@@ -155,7 +184,7 @@
     color: rgb(17, 84, 139);
     font-weight: bold;
   }
-  img {
+  .Image-norway {
     display: block;
     margin-left: auto;
     margin-right: auto;
