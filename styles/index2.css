@@ -64,7 +64,6 @@
   header {
     padding: 40px;
   }
-  #hamburger-icon,
   #hamburger-menu {
     float: right;
     display: none;
@@ -85,7 +84,7 @@
 
   nav a {
     text-decoration: none;
-    color: rgb(0, 51, 51);
+    color: rgb(92, 112, 112);
     font-size: 3vw;
     font-weight: normal;
   }
@@ -145,7 +144,7 @@
   .top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
   }
 
   .logo {
@@ -156,6 +155,7 @@
     margin-left: 10px;
     margin-top: 10px;
   }
+
   #shoppingcart {
     float: right;
     font-size: 2vw;
@@ -166,6 +166,11 @@
     background-size: 5%;
     position: relative;
   }
+
+  .section_two div {
+    display: flex;
+    align-items: baseline;
+  }
   section {
     margin-top: 30px;
   }
@@ -175,15 +180,14 @@
     align-items: baseline;
   }
   input[type="text"] {
-    text-align: left;
     height: 1vw;
     padding: 10px;
+
     margin-bottom: 20px;
     border-radius: 10px;
     color: rgb(0, 51, 51);
     width: 40%;
-    display: block;
-    margin-left: 50%;
+    margin-left: 20%;
     margin-right: 20px;
     font-size: 20px;
     background-color: rgb(206, 161, 0);
@@ -197,6 +201,7 @@
     margin-bottom: 20px;
     color: whitesmoke;
     font-weight: 200;
+    display: flex;
   }
 
   .Image-norway {
@@ -212,24 +217,26 @@
   #hamburger-icon {
     float: right;
     margin-right: 25px;
-    margin-top: 30px;
-    font-size: 30px;
   }
 
   #hamburger-menu {
-    display: none;
     float: right;
+    display: none;
   }
 
   nav {
+    height: 350px;
     display: none;
     background-color: rgb(0, 51, 51);
-    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
     border-radius: 8px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    z-index: 1;
+    position: relative;
   }
-
   #hamburger-menu:checked ~ nav {
     display: block;
   }
