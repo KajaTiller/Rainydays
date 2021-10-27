@@ -90,13 +90,16 @@
     background-color: rgb(201, 227, 248);
   }
 
-  .image_adventure {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    border-radius: 8px;
-    margin-bottom: 50px;
+  main {
+    background-image: url("images/adventure-1850178_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .products_men {
+    background-color: rgb(220, 238, 253);
+    max-height: 200px;
+    display: flex;
   }
   footer {
     height: 100px;
