@@ -98,8 +98,19 @@
 
   .products_men {
     background-color: rgb(220, 238, 253);
-    max-height: 200px;
+    max-height: 400px;
+  }
+
+  .jacket {
     display: flex;
+    flex-direction: row;
+  }
+
+  .jacket img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 200px;
   }
   footer {
     height: 100px;
