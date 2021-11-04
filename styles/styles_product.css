@@ -2,6 +2,7 @@
   body {
     font-family: "roboto condensed", "open sans", "PT sans", verdana;
     color: rgb(0, 51, 51);
+    position: relative;
   }
 
   .top {
@@ -121,6 +122,14 @@
     background-color: rgb(0, 51, 51);
     margin-top: 50px;
   }
+  #shoppingcart_added {
+    font-size: 30px;
+    margin-right: 20px;
+    color: rgb(0, 51, 51);
+    grid-area: added;
+    position: relative;
+    top: 60px;
+  }
 
   .back {
     grid-area: back;
@@ -142,7 +151,7 @@
     padding: 20px;
     grid-template-areas:
       "image text"
-      "add add"
+      "add added"
       "back back";
   }
 
