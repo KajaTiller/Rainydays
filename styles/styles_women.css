@@ -2,7 +2,6 @@
   body {
     font-family: "roboto condensed", "open sans", "PT sans", verdana;
     color: rgb(0, 51, 51);
-    position: relative;
   }
 
   .top {
@@ -91,127 +90,88 @@
     background-color: rgb(201, 227, 248);
   }
 
-  .product {
-    background-color: rgb(220, 238, 253);
-    max-height: 400px;
-    max-width: 600px;
-    padding-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .text {
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    grid-area: text;
+  main {
+    background-image: url("images/adventure-1850178_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
-  #jacket_front {
+  .products_men {
+    max-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 100px;
+  }
+
+  .jacket {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(220, 238, 253);
+    padding: 10px;
+    height: 500px;
+  }
+
+  .jacket img {
     height: auto;
     width: auto;
     max-width: 300px;
     max-height: 200px;
     padding-top: 10px;
-    grid-area: image;
   }
 
-  .add {
-    max-height: 60px;
-    max-width: 600px;
-    text-align: center;
-    grid-area: add;
+  .button_buy {
     background-color: rgb(0, 51, 51);
-    margin-top: 50px;
-    position: relative;
   }
 
-  #shoppingcart_added {
+  .button_buy i {
+    color: white;
+    max-width: 40px;
+    text-align: center;
+  }
+
+  .button_back {
+    background-color: rgb(0, 51, 51);
+  }
+  .button_back p {
+    color: white;
+    text-align: center;
+  }
+  footer {
+    height: 100px;
+    background-color: rgb(0, 51, 51);
+    color: white;
+    align-items: center;
+    margin: 40px;
+  }
+
+  footer li {
+    list-style-type: none;
+    display: flex;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  .about li {
+    display: inline;
+    padding: 30px;
+    float: left;
+  }
+  .follow li {
+    float: right;
+    margin-top: 15px;
+    padding: 10px;
     font-size: 30px;
-    margin-right: 20px;
-    color: rgb(0, 51, 51);
-    grid-area: added;
-    position: relative;
-    top: 60px;
-    left: 10px;
-    animation-name: right;
-    animation-duration: 2s;
+    margin-right: 50px;
   }
-  @keyframes right {
-    0% {
-      left: 10px;
-    }
-    50% {
-      left: 30px;
-    }
-    100% {
-      left: 10px;
-    }
+  footer a:hover {
+    text-decoration: underline;
   }
-
-  .add:active ~ #shoppingcart_added {
-    animation-play-state: running;
+  .follow li:hover {
+    font-size: 35px;
   }
-}
-.view_cart {
-  grid-area: back;
-  background-color: rgb(0, 51, 51);
-  min-height: 50px;
-  max-width: 600px;
-}
-
-.view_cart a {
-  color: white;
-  text-align: center;
-}
-
-.add {
-  color: white;
-  text-align: center;
-}
-.container {
-  display: grid;
-  grid-gap: 20px;
-  padding: 20px;
-  grid-template-areas:
-    "image text"
-    "add added"
-    "back back";
-}
-
-footer {
-  height: 100px;
-  background-color: rgb(0, 51, 51);
-  color: white;
-  align-items: center;
-  margin: 40px;
-}
-
-footer li {
-  list-style-type: none;
-  display: flex;
-}
-
-footer a {
-  color: white;
-  text-decoration: none;
-}
-.about li {
-  display: inline;
-  padding: 30px;
-  float: left;
-}
-.follow li {
-  float: right;
-  margin-top: 15px;
-  padding: 10px;
-  font-size: 30px;
-  margin-right: 50px;
-}
-footer a:hover {
-  text-decoration: underline;
-}
-.follow li:hover {
-  font-size: 35px;
 }
 
 @media screen and (max-width: 700px) {
