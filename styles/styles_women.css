@@ -92,9 +92,8 @@
   }
 
   main {
-    background-image: url("images/adventure-1850178_1920.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #women a {

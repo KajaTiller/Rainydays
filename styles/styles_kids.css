@@ -92,9 +92,8 @@
   }
 
   main {
-    background-image: url("images/adventure-1850178_1920.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
   }
   #kids a {
     font-weight: bold;
@@ -280,7 +279,50 @@
     color: rgb(206, 161, 0);
     font-weight: bold;
   }
+  main {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
+  .jacket {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(220, 238, 253);
+    padding: 10px;
+    height: 400px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 10px;
+  }
+
+  .jacket img {
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 200px;
+    padding-top: 10px;
+  }
+
+  .button_buy {
+    background-color: rgb(0, 51, 51);
+  }
+
+  .button_buy i {
+    color: white;
+    max-width: 40px;
+    text-align: center;
+  }
+
+  .button_back {
+    background-color: rgb(0, 51, 51);
+  }
+  .button_back p {
+    color: white;
+    text-align: center;
+  }
   footer {
     margin-top: 100px;
     height: 100px;

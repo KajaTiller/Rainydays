@@ -88,9 +88,8 @@
   }
 
   main {
-    background-image: url("images/adventure-1850178_1920.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #men a {
@@ -292,8 +291,8 @@
     background-color: rgb(220, 238, 253);
     padding: 10px;
     height: 400px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 60px;
+    margin-left: 60px;
     margin-top: 10px;
   }
 
