@@ -144,8 +144,12 @@ main p {
 #remove {
   flex: 1;
   max-height: 40px;
-  max-width: 60px;
+  max-width: 20px;
   margin-right: 10px;
+}
+#remove a {
+  text-decoration: none;
+  align-items: center;
 }
 
 .buy_now {
@@ -370,8 +374,12 @@ footer a:hover {
   #remove {
     flex: 1;
     max-height: 40px;
-    max-width: 60px;
+    max-width: 20px;
     margin-right: 10px;
+  }
+  #remove a {
+    text-decoration: none;
+    align-items: center;
   }
 
   .buy_now {
