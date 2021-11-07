@@ -88,10 +88,6 @@
     background-color: rgb(220, 238, 253);
   }
 
-  nav a:current {
-    background-color: rgb(201, 227, 248);
-  }
-
   h1 {
     background-color: rgb(220, 238, 253);
     text-align: center;
@@ -199,16 +195,6 @@
     margin-top: 4%;
   }
 
-  .image_adventure {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-radius: 8px;
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
-
   #hamburger-icon {
     float: right;
     margin-right: 25px;
@@ -247,12 +233,6 @@
     color: white;
     font-size: 30px;
     font-weight: normal;
-  }
-
-  nav a:hover {
-    text-decoration: underline;
-    color: rgb(206, 161, 0);
-    font-weight: bold;
   }
 
   h1 {

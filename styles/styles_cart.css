@@ -264,16 +264,6 @@ footer a:hover {
     margin-top: 4%;
   }
 
-  .image_adventure {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-radius: 8px;
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
-
   #hamburger-icon {
     float: right;
     margin-right: 25px;
@@ -314,11 +304,6 @@ footer a:hover {
     font-weight: normal;
   }
 
-  nav a:hover {
-    text-decoration: underline;
-    color: rgb(206, 161, 0);
-    font-weight: bold;
-  }
   .product {
     background-color: rgb(220, 238, 253);
     max-height: 400px;
@@ -404,12 +389,6 @@ footer a:hover {
     font-size: 30px;
     text-decoration: none;
     color: rgb(0, 51, 51);
-  }
-
-  #checkout:hover {
-    max-width: 50%;
-    background-color: rgb(214, 202, 160);
-    font-weight: bold;
   }
 
   footer {

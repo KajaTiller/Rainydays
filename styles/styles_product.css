@@ -88,10 +88,6 @@
     background-color: rgb(220, 238, 253);
   }
 
-  nav a:current {
-    background-color: rgb(201, 227, 248);
-  }
-
   .product {
     background-color: rgb(220, 238, 253);
     max-height: 400px;
@@ -147,10 +143,6 @@
     100% {
       left: 10px;
     }
-  }
-
-  .add:active ~ #shoppingcart_added {
-    animation-play-state: running;
   }
 }
 .view_cart {
@@ -262,16 +254,6 @@ footer a:hover {
     margin-top: 4%;
   }
 
-  .image_adventure {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-radius: 8px;
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
-
   #hamburger-icon {
     float: right;
     margin-right: 25px;
@@ -311,12 +293,6 @@ footer a:hover {
     font-size: 30px;
     font-weight: normal;
     padding-top: 30px;
-  }
-
-  nav a:hover {
-    text-decoration: underline;
-    color: rgb(206, 161, 0);
-    font-weight: bold;
   }
 
   .product {
