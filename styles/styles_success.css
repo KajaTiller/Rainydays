@@ -92,29 +92,15 @@
     background-color: rgb(201, 227, 248);
   }
 
-  main input[type="text"] {
+  h1 {
     background-color: rgb(220, 238, 253);
-
-    margin-left: 30%;
-    display: block;
+    text-align: center;
+    font-size: 40px;
   }
 
-  main input {
-    margin-bottom: 10px;
+  main {
+    text-align: center;
   }
-
-  main h1 {
-    margin-left: 30%;
-  }
-  main input[type="radio"] {
-    margin-left: 30%;
-  }
-
-  input [type="submit"] {
-    display: flex;
-    justify-content: center;
-  }
-
   footer {
     height: 100px;
     background-color: rgb(0, 51, 51);
