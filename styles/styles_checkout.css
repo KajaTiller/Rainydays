@@ -95,6 +95,7 @@
     background-color: rgb(220, 238, 253);
 
     margin-left: 20%;
+    display: block;
   }
 
   main input {
