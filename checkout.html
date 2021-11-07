@@ -4,7 +4,7 @@
     <title>Rainydays</title>
     <meta name="description" content="Buy new jackets for any weather">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/styles_cart.css">
+    <link rel="stylesheet" href="styles/styles_checkout.css">
     <script src="https://kit.fontawesome.com/976e719daa.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -34,44 +34,44 @@
     
     <main>
 
-       <h1>Items</h1>
-
-       <section class="item_1">
-            <img src="images/Product_front.jpg" id="jacket_front">
-            <p>Jacket</p>
-            <p>Color: Brown</p>
-            <p id="prize"> 500 NOK</p>
-            <button id="remove"><a href="">Remove</a></button>
-        </section>
-
-        <section class="item_2">
-            <img src="images/Product_front.jpg" id="jacket_front">
-            <p>Jacket</p>
-            <p>Color: Brown</p>
-            <p id="prize"> 500 NOK</p>
-            <button id="remove"><a href="">Remove</a></button>
-        </section>
-
-
-        <section class="item_3">
-            <img src="images/Product_front.jpg" id="jacket_front">
-            <p>Jacket</p>
-            <p>Color: Brown</p>
-            <p id="prize"> 500 NOK</p>
-            <button id="remove"><a href="">Remove</a></button>
-        </section>
-    
-        <section class="buy_now">
-            <h2>Total Amount:</h2>
-            <p>1500 NOK</p>
-            <button id="checkout">
-                <a href="checkout.html">Check Out!</a>
-            </button>
-
-        </section>
-
+        <div>
+        <h1>Personal information:</h1>
         
-      </main>
+        <input type="text"placeholder="Firstname">
+        <input type="text"placeholder="Lastname">  
+        <input type="text"placeholder="Adress">  
+        <input type="text"placeholder="zip-code">  
+        <input type="text"placeholder="Phonenumber">  
+       
+        
+
+        <h1>Payment:</h1>
+        
+        <div>
+        <input type="radio" name="payment" value="Creditcard" id="Creditcard"><label for="Creditcard">Creditcard</label>
+        <label for="payment">Choose creditcard:</label>
+        <select name="payment" id="payment">
+        <option value="visa">Visa</option>
+        <option value="mastercard">Mastercard</option>
+        <option value="American_express">American express</option>
+       
+        </div>
+        </div>
+     
+        <section class= "cardinfo" >
+                 <div id="cardnumber"></div><input type="text"placeholder="Cardnumber"></div>
+        <div id="cvc"><input type="text"placeholder="cvc"></div>
+        </section>
+        
+
+        <div>
+        <input type="radio" name="payment" value="Invoice" id="invoice"><label for="invoice">Invoice</label>
+        <input type="text"placeholder="Adress"> 
+
+        </div>
+
+
+    </main>
 
     <footer>
        <ul>
