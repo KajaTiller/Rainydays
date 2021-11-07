@@ -285,7 +285,14 @@ footer a:hover {
   nav {
     display: none;
     background-color: rgb(220, 238, 253);
-
+    height: 600px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 40px;
     position: fixed;
   }
   #hamburger-menu:checked ~ nav {
