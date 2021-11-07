@@ -87,10 +87,6 @@
     font-weight: bold;
     background-color: rgb(220, 238, 253);
   }
-
-  nav a:current {
-    background-color: rgb(201, 227, 248);
-  }
 }
 .product {
   background-color: rgb(220, 238, 253);
