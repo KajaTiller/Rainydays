@@ -101,6 +101,20 @@
   main {
     text-align: center;
   }
+
+  button {
+    max-width: 30%;
+    min-width: 30%;
+    max-height: 40px;
+    background-color: rgb(0, 51, 51);
+    margin-top: 200px;
+  }
+
+  button a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(201, 227, 248);
+  }
   footer {
     height: 100px;
     background-color: rgb(0, 51, 51);
@@ -136,138 +150,163 @@
   .follow li:hover {
     font-size: 35px;
   }
+}
 
-  @media screen and (max-width: 700px) {
-    body {
-      font-family: "roboto condensed", "open sans", "PT sans", verdana;
-      color: rgb(0, 51, 51);
-    }
+@media screen and (max-width: 700px) {
+  body {
+    font-family: "roboto condensed", "open sans", "PT sans", verdana;
+    color: rgb(0, 51, 51);
+  }
 
-    .top {
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 
-    .logo {
-      max-width: 20vw;
-      margin-right: auto;
-      margin-left: 10px;
-      margin-top: 10px;
-    }
+  .logo {
+    max-width: 20vw;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
 
-    #shoppingcart {
-      float: right;
-      font-size: 3vw;
-      margin-right: 20px;
-      color: rgb(0, 51, 51);
-    }
+  #shoppingcart {
+    float: right;
+    font-size: 3vw;
+    margin-right: 20px;
+    color: rgb(0, 51, 51);
+  }
 
-    input[type="text"] {
-      height: 1vw;
-      padding: 10px;
+  input[type="text"] {
+    height: 1vw;
+    padding: 10px;
 
-      width: 40%;
-      margin-left: 20%;
-      margin-right: 20px;
-      font-size: 20px;
-      background-color: rgb(206, 161, 0);
-    }
+    width: 40%;
+    margin-left: 20%;
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: rgb(206, 161, 0);
+  }
 
-    .wider-item {
-      background-color: rgb(0, 51, 51);
-      text-align: center;
-      font-size: 15px;
-      padding: 10px;
-      color: white;
-      font-weight: 200;
-      margin-top: 4%;
-    }
+  .wider-item {
+    background-color: rgb(0, 51, 51);
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    font-weight: 200;
+    margin-top: 4%;
+  }
 
-    .image_adventure {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 80%;
-      border-radius: 8px;
-      margin-bottom: 100px;
-      margin-top: 100px;
-    }
+  .image_adventure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
 
-    #hamburger-icon {
-      float: right;
-      margin-right: 25px;
-    }
+  #hamburger-icon {
+    float: right;
+    margin-right: 25px;
+  }
 
-    #hamburger-menu {
-      float: right;
-      display: none;
-    }
+  #hamburger-menu {
+    float: right;
+    display: none;
+  }
 
-    nav {
-      display: none;
-      background-color: rgb(220, 238, 253);
-      height: 600px;
-      display: none;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      margin-top: 40px;
-      position: fixed;
-    }
-    #hamburger-menu:checked ~ nav {
-      display: block;
-    }
+  nav {
+    display: none;
+    background-color: rgb(220, 238, 253);
+    height: 600px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    position: fixed;
+  }
+  #hamburger-menu:checked ~ nav {
+    display: block;
+  }
 
-    nav li {
-      text-align: center;
-      display: block;
-      padding: 20px;
-    }
+  nav li {
+    text-align: center;
+    display: block;
+    padding: 20px;
+  }
 
-    nav a {
-      text-decoration: none;
-      color: white;
-      font-size: 30px;
-      font-weight: normal;
-    }
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+  }
 
-    nav a:hover {
-      text-decoration: underline;
-      color: rgb(206, 161, 0);
-      font-weight: bold;
-    }
+  nav a:hover {
+    text-decoration: underline;
+    color: rgb(206, 161, 0);
+    font-weight: bold;
+  }
 
-    footer {
-      margin-top: 100px;
-      height: 100px;
-      background-color: rgb(0, 51, 51);
-      color: white;
-    }
+  h1 {
+    background-color: rgb(220, 238, 253);
+    text-align: center;
+    font-size: 30px;
+  }
 
-    footer li {
-      list-style-type: none;
-      text-align: center;
-      align-content: center;
-    }
+  main {
+    text-align: center;
+    margin-top: 80px;
+  }
 
-    footer a {
-      color: white;
-      text-decoration: none;
-    }
-    .about li {
-      padding: 5px;
-    }
-    .follow li {
-      padding: 10px;
-      padding-top: 5px;
-      font-size: 30px;
-      display: inline;
-    }
-    .follow {
-      text-align: center;
-    }
+  button {
+    max-width: 70%;
+    min-width: 70%;
+    max-height: 40px;
+    background-color: rgb(0, 51, 51);
+    margin-top: 200px;
+  }
+
+  button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(201, 227, 248);
+  }
+
+  footer {
+    margin-top: 100px;
+    height: 100px;
+    background-color: rgb(0, 51, 51);
+    color: white;
+  }
+
+  footer li {
+    list-style-type: none;
+    text-align: center;
+    align-content: center;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  .about li {
+    padding: 5px;
+  }
+  .follow li {
+    padding: 10px;
+    padding-top: 5px;
+    font-size: 30px;
+    display: inline;
+  }
+  .follow {
+    text-align: center;
   }
 }
